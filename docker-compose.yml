@@ -5,7 +5,7 @@ services:
       args:
         target: runtime
     image: docker.litellm.ai/berriai/litellm:v1.90.3
-    volumes:  # Lines have comment removed
+    volumes:  # Lines have comments removed
       - ./config.yaml:/app/config.yaml
 #     command:
 #      - "--config=/app/config.yaml"
